@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in Form</title>
+    <style>
+        body {
+            background: rgb(34, 0, 36);
+            background: linear-gradient(174deg, rgba(34, 0, 36, 0.6278886554621849) 0%, rgba(9, 54, 121, 1) 0%, rgba(1, 167, 236, 1) 76%, rgba(0, 212, 255, 1) 100%);
+            font-family: 'PT Sans Narrow', sans-serif;
+
+        }
+
+        .form {
+            width: 35%;
+            margin: auto;
+            height: 54vh;
+            margin-top: 23vh;
+            border-radius: 3px;
+            background-color: #fff;
+            text-align: center;
+        }
+        .form img{
+            margin-top: -40px;
+        }
+
+        .container {
+            color: #555;
+            font-family: 'PT Sans Narrow', sans-serif;
+            margin-top: 24px;
+            font-size: 2em;
+        }
+        form{
+            margin-top: 20px;
+        }
+
+        .textbox {
+            outline: 0;
+            border: 1px solid #eaeaea;
+            background-color: #eaeaea;
+            border-radius: 3px;
+            height: 35px;
+            width: 325px;
+            transition: 0.1s;
+            margin-top: 20px;
+
+        }
+        input{
+            padding: 10px;
+        }
+        input.button{
+            width: 20%;
+            margin: auto;
+            margin-top: 24px;
+        }
+
+        .textbox:focus {
+            border: 1px solid #127da7;
+        }
+
+        
+        .button {
+            display: block;
+            border-radius: 3px;
+            background-color: #127da7;
+            border: 0px;
+            color: #fff;
+            transition: 0.5s;
+        }
+
+        .button:hover {
+            cursor: pointer;
+            opacity: 0.8;
+        }
+
+        .link {
+            margin-top: 24px;
+        }
+
+        .link a {
+            text-decoration: none;
+            color: #555;
+            font-family: 'PT Sans Narrow', sans-serif;
+            transition: 0.5s;
+        }
+
+        .link a:hover {
+            color: #3498db;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <img src="avatar.png" alt="" widht="70" height="70">
+        <div class="container">
+            Login
+        </div>
+        <form action="#" method="get" name="denemeform">
+            <input type="text" class="textbox" placeholder="Username" />
+            <input type="password" class="textbox" placeholder="Password" />
+            <input type="submit" class="button" value="Login">
+        </form>
+        <div class="link">
+            <a href="#">Not registered yet? Sign up here</a>
+        </div>
+    </div>
+</body>
+</html>
